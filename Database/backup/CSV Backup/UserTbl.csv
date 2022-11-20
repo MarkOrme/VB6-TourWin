@@ -1,0 +1,9 @@
+Name,ID,PassWord,DataPath,Security,Load,Metafile,ShowMeta,BitField
+"Mark",1,"real","C:\Program Files\TourWin\",1,1,"C:\Development\TourWin\Resource\Lance2000.bmp",1,1
+"James",2,"password","c:\Development\TourWin\Database\",0,3," ",0,0
+"Annette",3,"password","c:\Development\TourWin\Database\",1,0," ",0,1
+"test",4,"password","c:\Development\TourWin\Database\",0,0," ",0,1
+"Test5",5,,"C:\Development\Tourwin\Database\",0,0," ",0,
+"test6",6,,"c:\Development\Tourwin\Database\",0,0," ",0,1
+"test7",7,,"c:\Development\TourWin\Database\",0,1," ",0,1
+"TourSystem",8,,"04303402160831714",0,,,0,268
