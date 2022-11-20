@@ -1,0 +1,21 @@
+
+[Document Files]
+TOURWIN.DOC=1
+
+[File Properties]
+HasProperties=1
+BrowseType=0
+AutoMapFile=0
+StartingWith=0
+IncrementBy=20
+NextTopicNumber=0
+AutoFixRTF=1
+StartingNumber=1
+BrowseString=TOURWIN:0
+DefaultBuildTag=
+MapStartWith=1
+
+[Project]
+CHFile=
+[VERSION]
+RHFile=7.0

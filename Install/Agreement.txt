@@ -1,0 +1,67 @@
+TourWin software License Agreement
+BEFORE INSTALLING THE SOFTWARE YOU SHOULD CAREFULLY READ THE FOLLOWING 
+TERMS AND CONDITIONS. INSTALLING THE SOFTWARE INDICATES YOUR ACCEPTANCE 
+OF THE TERMS AND CONDITIONS. IF YOU DO NOT AGREE TO THE TERMS OF THIS 
+AGREEMENT DO NOT INSTALL THE SOFTWARE.
+
+TOURWIN SOFTWARE LICENSES ITS SOFTWARE (HEREINAFTER REFERRED
+TO AS THE "SOFTWARE" INCLUDING ANY ACCOMPANYING DOCUMENTATION) TO 
+YOU ("CUSTOMER") ONLY UPON THE CONDITION THAT YOU ACCEPT ALL OF THE 
+TERMS CONTAINED IN THIS LICENSE AGREEMENT ("AGREEMENT").
+
+GRANT OF LICENSE: TourWin software grants you a non-exclusive license to use 1 copy 
+of the Software in a single computer.
+
+
+Software is copyrighted and title to Software and all associated intellectual property 
+rights is retained by TourWin software. You may not copy Software to additional 
+computers other than a single copy for archival purposes. Software is confidential
+ information of TourWin software. You may not reverse assemble reverse compile
+otherwise translate or discover the source code of the Software except as permitted 
+by law without the possibility of contractual waiver. In addition unless otherwise 
+specifiedyou may not rent lease sublicense assign or distribute the Software to any 
+third party.
+
+You agree that any information or feedback you may provide to TourWin software in
+reference to the Software or this Agreement is non-confidential and you grant TourWin
+softwarea worldwide fully paid up and irrevocable license to use this 
+information/feedback in TourWin software business activities.
+
+At TourWin software's discretion TourWin software may provide limited support through 
+email or discussion forums at the TourWin software web site. TourWin software incurs
+no obligation to provide any support under this Agreement.
+
+TERM AND TERMINATION: This Agreement is effective until terminated. You may 
+terminate this Agreement at any time by destroying all copies of Software. This 
+Agreement will terminate immediately without notice from TourWin software if you fail to
+comply with any provision of this Agreement. Upon termination you must destroy all 
+copies of Software.
+
+DISCLAIMER OF WARRANTY: The Software is provided "AS IS" WITHOUT WARRANTY 
+OF ANY KIND EITHER EXPRESS OR IMPLIED INCLUDING BUT NOT LIMITED TO THE 
+IMPLIED WARRANTY OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+PURPOSE.
+
+LIMITATION OF LIABILITY: THE ENTIRE RISK ARISING OUT OF THE USE OR 
+PERFORMANCE OF THIS SOFTWARE AND DOCUMENTATION REMAINS WITH YOU. 
+IN NO EVENT WILL TOURWIN SOFTWARE BE LIABLE FOR ANY LOST PROFITS LOST 
+SAVINGS INCIDENTAL OR INDIRECT DAMAGES OR OTHER ECONOMIC 
+CONSEQUENTIAL DAMAGES EVEN IF TOURWIN SOFTWARE OR ITS AUTHORIZED 
+SUPPLER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ADDITION
+TOURWIN SOFTWARE AND ITS SUPPLIERS WILL NOT BE LIABLE FOR ANY DAMAGES 
+CLAIMED BY YOU BASED ON ANY THIRD PARTY CLAIM.
+
+Some jurisdictions do not allow the exclusion of implied warranties or the limitation for 
+consequential damages so the above may not apply to you.
+
+GOVERNING LAW: Any action related to this Agreement will be governed by
+British Columbia law and controlling Canadian federal law. No choice of law rules of any
+jurisdiction will apply.
+
+INTEGRATION: This Agreement is the entire agreement between you and TourWin 
+software relating to its subject matter. It supersedes all prior or contemporaneous 
+oral or written communications proposals representations and warranties and prevails
+over any conflicting or additional terms of any quote order acknowledgment
+or other communication between the parties relating to its subject matter during the
+term of this Agreement. No modification of this Agreement will be binding unless in writing 
+and signed by an authorized representative of each party.
