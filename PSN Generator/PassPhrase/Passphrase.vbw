@@ -1,0 +1,5 @@
+frmMain = 101, 42, 724, 554, Z, 22, 22, 539, 386, C
+basPassphrase = 100, 100, 547, 533, C
+clsPrint = 121, 103, 568, 511, CZ
+basEdit = 121, 103, 568, 511, C
+clsRndData = 100, 100, 595, 519, 
