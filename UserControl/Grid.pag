@@ -1,0 +1,92 @@
+VERSION 5.00
+Begin VB.PropertyPage Grid 
+   Caption         =   "Grid"
+   ClientHeight    =   3495
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   5925
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3495
+   ScaleWidth      =   5925
+   Begin VB.TextBox txtHeaderCaption 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   5
+      Top             =   1670
+      Width           =   2700
+   End
+   Begin VB.TextBox txtRows 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   3
+      Top             =   1020
+      Width           =   2700
+   End
+   Begin VB.TextBox txtColumns 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   1
+      Top             =   370
+      Width           =   2700
+   End
+   Begin VB.Label lblHeaderCaption 
+      Caption         =   "HeaderCaption:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   4
+      Top             =   1420
+      Width           =   2700
+   End
+   Begin VB.Label lblRows 
+      Caption         =   "Rows:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   2
+      Top             =   770
+      Width           =   2700
+   End
+   Begin VB.Label lblColumns 
+      Caption         =   "Columns:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   0
+      Top             =   120
+      Width           =   2700
+   End
+End
+Attribute VB_Name = "Grid"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
+Option Explicit
+Private Sub txtHeaderCaption_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtRows_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtColumns_Change()
+    Changed = True
+End Sub
+
+
+Private Sub PropertyPage_ApplyChanges()
+    SelectedControls(0).HeaderCaption = txtHeaderCaption.Text
+    SelectedControls(0).Rows = txtRows.Text
+    SelectedControls(0).Columns = txtColumns.Text
+End Sub
+
+
+
+Private Sub PropertyPage_SelectionChanged()
+'    txtHeaderCaption.Text = SelectedControls(0).HeaderCaption
+'    txtRows.Text = SelectedControls(0).Rows
+'    txtColumns.Text = SelectedControls(0).Columns
+End Sub
+
+

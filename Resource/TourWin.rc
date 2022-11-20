@@ -1,0 +1,266 @@
+///////////////////////////////////////////////
+// String Table For TourWin Cycle Program.
+// Written and Updated By Mr. Mark Ormesher.
+// Date: May 2, 1999
+///////////////////////////////////////////////
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+//
+// System resources
+
+    01                  "TourWin Version 1.00"
+    02                  "HKEY_LOCAL_MACHINE\\Software\\Tourwin" // Main Key
+    03                  "Tour_Exe"                              // Exe Key
+// When tour loads, set window to size when last closed
+    04                  "Top"                                   // Top placement
+    05                  "Left"                                  // Left placement
+    06                  "Height"                                // Height
+    07                  "Width"                                 // Width
+    08                  "WindowState"                           // WindowState
+    10                  "Tourwin.hlp"                           // Help file name       
+    11                  "DBase"                                 // Database Location Key
+    12                  "UserName"                              // Name of last logged in User
+    13                  "Welcome"                               // Indicates if welcome wizard is shown.        
+    14			"Login"		// Login caption.
+    15			"LastDB"	//Last DB opened	
+
+// Global Messages
+    50                  "Save changes before exiting program?" // Save prompt.
+    51                  "Save changes?"                         // Generic prompts.
+    52                  "No records exist for this date!"       // No record prompt.
+    53                  "Invalid Numeric value!"                // Generic invalid numeric message
+    54                  "Invalid Date value!"                   // Generic invalid date message.
+    55                  "Invalid Format."                       // Generic Invalic Format message
+    56                  "Number to large, maximum value is "    // Gereric Numeric to large message
+    57			"Are you sure you want to delete "	// Delete item message...
+
+///////////////////
+//Form Parameters
+//////////////////
+// MDI
+//////
+   100                  "TourWin: Serious software for serious athletes."
+
+////////////
+// PassFrm
+///////////
+   200                  "Invalid User Name. User Name is case sensitive, check 'Caps Lock'"
+
+////////////
+// frmWizard
+///////////
+   210                  "Cancel"
+   211                  "< &Back"       
+   212                  "&Next >"
+   213                  "&Finish"
+   // Introduction Frame.
+   260                  "Welcome to TourWin. This wizard will step you through the setup of your training schedule."          // Caption
+   261                  "Planning your year: This consists of entering contact information, entering race date(s) and planning a training schedule to peak for races."
+   262                  "Setting daily activities: This consists of defining heart rate levels and activity names."
+   263                  "Tracking daily results: A brief outline of training tools like reports and calendars that helps keep training on schedule."
+   // Planning Your Year.
+   250                  "Planning your year! The contacts module is designed track race contact information. A contact can then be associated to a future race."
+   251                  "Click the 'Contact Module' button on the iconbar to display the contact module."
+   252                  "Enter a race into the calendar by clicking the 'Calendar Module' button on the icon bar. From the 'Data File' combo box, select 'Event'. Make sure the year is correct. Click the 'Begin' Calendar' menu, found on the main menu bar." 
+   253                  "To enter a race, double click the appropriate date."
+   255                  "Database L&ocation:"
+   254                  "Help"
+   
+   // Event
+   // Cancel Button Message
+   270                  "Setting up daily activities!"    
+   271                  "Event Type Names: Event names are a description of your training days. Example 'Hill Climb'. Enter Event Names by clicking Setup->System Names->Event Type Names."
+   272                  "Peak Name: The peak module is used to enter peak description which are then used to create a training schedule. Enter Peak Names by clicking Setup->System Names->Peak Guide Names."
+   273                  "Heart Level Name: These captions are the descriptor of aerobic/anaerobic. Enter Heart Names by clicking Setup->System Names->Heart Rate Zone."
+   // Heart
+   280                  "Heart Names: TourWin offers the ability to track up to 15 heart rate zones. An example of a heart rate zone maybe '110-120 BPM', where BPM stands for Beats Per Minute. Define your heart rate zones by selecting 'Setup->System Names->Heart Rate Zone'."
+   281			"Peak Schedule:	Create training schedule up to one hundered and eighty days in length. Create training schedule by clicking Setup->System Peak Schedule."
+     
+   // Tracking Daily Activity
+   290                  "Establishing a training schedule is essential for top performance at competitions. TourWin offers the tools to design a training schedule which will prepare you for the big day. Training schedules can be up to 180 days in length and each day consists of one of 18 user defined training activities. Open the peak schedule by clicking 'Setup->System Peak Schedule'"
+   291                  "Tracking Daily Activity!"
+   292			"On a daily basis, you would open the 'Daily Module' to enter the training days activities. Enter the distance you covered, the duration of exercise and the amount of time spent in each aerobic/anaerobic level."
+   293			"Use reports or 'Graph Module' to report on previous days activities. These features are helpful in maintaining a steady course. Reports are found under Tools->Reports. Alternatively, click the print button on the toolbar to run a report for the active form."
+   294			"Click the 'Daily Module' button on the iconbar to display the daily module."
+   295                  "Click the 'Graph Module' button on the iconbar to display the graph module."
+   // Finish
+   296			"You can display this wizard again by clicking View->Wizard."	
+	
+///////////
+// DateFrm
+///////////
+   300                  "Start Date"                            // Start date last entered
+   301                  "End Date"                              // End date last entered
+   302                  "Date Range MM-DD-YYYY"               // Forms Caption 
+/////////////////
+// PeakRptOption
+/////////////////
+   400                  "Peak Event Report Options."            // Caption
+   401                  "&Run Report."                          // Run button caption
+   402                  "From the list box below, select the peak schedule(s) you wish to report by. Hold down the CTRL key for multiple selection capability."
+   403                  "&Cancel"                               // Cancel button
+///////////////////
+// UpGrade
+//////////////////
+   500                  "Upgrading Database Structure"          // Caption
+   501                  "Updating database structure..."        // Progress bar Caption
+   502                  "Data structure inconsistency, changes to database structure are being made to conform to current program requirements."
+
+///////////////////
+// Startup Form
+//////////////////
+   550                  "Welcome to TourWin. This product is intended to help all athletes, from the weekend warrior to the professional. In order to obtain the best results from this product, please follow these steps. 1) Enter Heart Rate captions. 2) Enter Peak names and create Peak schedule(s). 3) Enter Daily training captions. "          // Caption
+
+///////////////////
+// frmExport_Options
+///////////////////
+  575			"Export Type"				// Form caption
+  576			"&OK"					// OK button caption	
+  577			"Cancel"				// Cancel button caption	
+  578			"Export Type"				// Frame Caption.
+  579			"Event Days"				// Option - Event
+  580			"Peak Schedules"			// Option - Peak Schedule
+  581			"Daily Activities"			// OPtion - DAily	
+  582			"Export Event Days"			// Form caption
+  583			"Export Peak Schedules"			// Form caption
+  584			"Export Daily Activities"		// Form Caption	
+  585			"Export Items"				// Frame Items Captions	
+  586			"Hold down 'SHIFT' for multiple selections" // Label caption
+  587			"&OverWrite Existing"			// Check caption	
+
+///////////////////
+// About
+//////////////////
+   600  "About TourWin."                // Caption
+					// Top 1/3
+   601  "TourWin created by Orme Software Inc. for Window 9x, Windows NT and Windows 2000 Pro systems."
+						     // App Description
+   602  "TourWin is designed as a tool to help the athlete train more effectively. It monitors performances and training workouts. By reviewing this data, the athlete critiques his/her accomplishments to create improved workouts."
+   603  "OK"                    //Ok button        
+   604  "&System Info..."       // System Info button
+   605  "Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted."
+///////////////////
+// Calendar Frm
+//////////////////
+   700  "Events Calender"               // Caption
+   701  "Data File:"                    //lbldatafile
+   702  "Event Type:"                   //lblType
+   703  "Page #:"                       //lblPageNum
+   704  "Event Year:"                   //lblYear
+					//lblDaysOfWeek
+   705  " mo tu we  th  fr  sa su  mo tu we  th  fr  sa su mo tu we  th  fr  sa su  mo tu we  th  fr  sa su  mo tu we  th  fr  sa su  mo tu"
+					//fraTypeList
+   706  "         Date                                                                               Event                                                                Type"
+   707  "  Jan"                         //lblJan
+   708  "  Feb"                         //lblFeb
+   709  "  Mar"                         //lblMar
+   710  "  April"                       //lblApr
+   711  "  May"                         //lblMay
+   712  "  June"                        //lblJun
+   713  "  July"                        //lblJul
+   714  "  Aug"                         //lblAug
+   715  "  Sept"                        //lblSept
+   716  "  Oct"                         //lblOct
+   717  "  Nov"                         //lblNov
+   718  "  Dec"                         //lblDec
+
+///////////////////
+// ChartFrm 800 - 823
+//////////////////
+   800  " Colors"               // Caption
+
+///////////////////
+// ContFrm 824 - 850
+//////////////////
+  824   "Contact Database"      // Form Caption
+  825   "Do you wish to save changes to column widths?"
+  826   "New"           // New button
+  827   "Delete"        // Delete
+  828   "Sort Options"  // Sort
+  829   "Refresh"       // Refresh
+  830   "Exit"          // Exit button
+  831   "Quick Find Buttons...  " //Frame caption.
+  832   "Are you sure you wish to delete "
+
+////////////////////////
+// ContOpt Form 851- 875
+////////////////////////
+ 851    "Contact options." // Form Caption
+ 852    "Sort Column"             //Active Index Frame caption
+ 853    "Sort Type"                 // Frame Caption
+ 854    "&Save and Exit"        // Save button
+ 855    "&Cancel"               // Cancel button
+ 856    "C&ontact."              // Contact
+ 857    "&Last Name."
+ 858    "&First Name."
+ 859    "&Phone Number."
+ 860    "Fa&x Number."
+ 861    "E&mail Address."
+ 862    "&Ascending"
+ 863    "&Descending"
+ 864	"Save column &width changes on exit"
+
+//////////////////
+// Activity Form
+//////////////////
+ 900	"&New"			// Caption for add Button
+ 901	"&Delete"		// Caption for Delete Button	
+ 902	"Description"		// Label for Description...				
+ 903	"Color"			// Label for Colour
+ 904	"Close"			// Close Button Caption
+ 905	"Names"			// Names caption for frame
+ 906	"&Modify"		// Save button caption
+ 910 	"Peak Names"		// Activity Form Caption
+ 911	"Event Names"		// Activity Form Caption
+ 912	"Heart Names"		// Activity Form Caption	
+ 913	"Please select an item from the list." 	// Message
+ 914 	"Peak Performance Guide Names."		// Dialog caption
+//////////////////
+// frmItems
+//////////////////
+ 950	"Items"			// Form Caption
+ 951	"&OK"			// OK Button caption
+ 952	"Cancel"		// Cancel Button Caption
+ 953	"&Color"		// Color Button Caption
+ 954	"Description"		// Label CAption
+//////////////////
+// Error Messages
+//////////////////
+   1000         "Failed to commit edit: Would you like to try again? Clicking 'No', edit changes will be lost!"
+					// Out of handles
+   1001         "Out of Database resources, try closing some TourWin windows!"
+   1002         "No records in specified parameters!"   //No records.
+   1003         "Field does not exist within table."    //No Field in table
+
+//////////////////
+// Progress Bar Messages
+//////////////////
+   1500         "Loading Contact Database..."
+   1501         "Loading Daily Database..."
+   1502         "Creating New Contact Record..."
+   1503         "Loading data..."
+   1504         "Saving data..."
+/////////////////////
+// Report Parameters
+/////////////////////
+ //Daily.Rpt      
+   5000                 "Daily Activity Report"                 //rpt_title
+   5001                 "Daily Heart Rate - Mileage - Durations"//rpt_sub_title
+ //Weekly.rpt
+   5100                 "Weekly Totals Report"                  //rpt_title
+   5101                 "Weekly Totals are Sunday to Saturday"  //rpt_sub_title
+   5102                 " "                                     //rpt_date_range
+ //Caln_eve.rpt
+   5200                 "Event Calendar Report"                 //rpt_title
+   5201                 "Event and Contact List Report"         //rpt_sub_title
+ //Peakschd.rpt
+   5300                 "Peak Activity Report"                  //rpt_title
+   5301                 "Daily activity for "                   //rpt_sub_title
+
+END
+   
+
+
+
+
